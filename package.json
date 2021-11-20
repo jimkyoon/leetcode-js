@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
   }
