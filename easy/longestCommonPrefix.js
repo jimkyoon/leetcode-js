@@ -9,6 +9,8 @@
  */
 
 const longestCommonPrefix = (strings) => {
+  // if there is only one word, return early
+  if (strings.length === 1) return strings[0];
   // object to hold all possible prefix/substring
   const prefixs = {};
   // loop through all strings
@@ -32,5 +34,5 @@ const longestCommonPrefix = (strings) => {
       largestSubstring = substring;
     }
   }
-  return largestTally > 1 ? largestSubstring : '';
+  return largestTally > strings.length - 1 ? largestSubstring : '';
 };
