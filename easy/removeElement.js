@@ -13,16 +13,17 @@
 
 const removeElement = (nums, val) => {
   // two pointers
-  let incrementer = 0;
+  let index = 0;
   let tally = 0;
-  while (incrementer < nums.length) {
+  while (index < nums.length) {
     // if current value in array isnt target, set the last place via tally to the current value and increment tally
-    if (nums[incrementer] !== val) {
-      nums[tally] = nums[incrementer];
+    if (nums[index] !== val) {
+      // removed next line since prompt only asked to return the length of remaining non target numbers
+      // nums[tally] = nums[index];
       tally += 1;
     }
     // go to next value
-    incrementer += 1;
+    index += 1;
   }
   // return the tally of values after "filtering"
   return tally;
