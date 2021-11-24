@@ -36,3 +36,5 @@ const longestCommonPrefix = (strings) => {
   }
   return largestTally > strings.length - 1 ? largestSubstring : '';
 };
+
+module.exports = longestCommonPrefix;

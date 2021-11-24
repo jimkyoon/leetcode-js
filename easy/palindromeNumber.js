@@ -20,3 +20,5 @@ const palindromeNumber = (number) => {
 };
 
 // Follow up: Coud you solve it without converting the integer to a string?
+
+module.exports = palindromeNumber;

@@ -23,7 +23,7 @@ const removeDuplicatesFromSortedList = (head) => {
   // memo to keep track of unique values
   const memo = {
     [currentNode.val]: 1,
-  }
+  };
   while (nextNode !== null) {
     // if value is unique, store it and move on
     if (memo[nextNode.val] === undefined) {

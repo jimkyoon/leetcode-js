@@ -27,3 +27,5 @@ const removeDuplicatesFromSortedArray = (nums) => {
   }
   return nums.length;
 };
+
+module.exports = removeDuplicatesFromSortedArray;

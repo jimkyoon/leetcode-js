@@ -26,3 +26,5 @@ const validParentheses = (string) => {
   }
   return stack.length === 0;
 };
+
+module.exports = validParentheses;

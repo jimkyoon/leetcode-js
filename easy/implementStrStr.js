@@ -12,3 +12,5 @@
  */
 
 const implementStrStr = (string, targetString) => string.indexOf(targetString);
+
+module.exports = implementStrStr;

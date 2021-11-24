@@ -1,19 +1,18 @@
 // 21. Merge Two Sorted Lists
 // Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *   this.val = (val===undefined ? 0 : val)
- *   this.next = (next===undefined ? null : next)
- * }
- */
+// Definition for singly-linked list.
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val);
+  this.next = (next === undefined ? null : next);
+}
 
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
  */
+
 const mergeTwoSortedLists = (l1, l2) => {
   if (l1 === null) return l2;
   if (l2 === null) return l1;
@@ -48,3 +47,5 @@ const mergeTwoSortedLists = (l1, l2) => {
   if (trackl2 === null) trackl3.next = trackl1;
   return returnLinkedList;
 };
+
+module.exports = mergeTwoSortedLists;

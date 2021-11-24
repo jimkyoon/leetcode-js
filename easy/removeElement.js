@@ -27,3 +27,5 @@ const removeElement = (nums, val) => {
   // return the tally of values after "filtering"
   return tally;
 };
+
+module.exports = removeElement;

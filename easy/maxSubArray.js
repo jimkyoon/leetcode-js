@@ -27,3 +27,5 @@ const maxSubArray = (nums) => {
   }
   return sum;
 };
+
+module.exports = maxSubArray;

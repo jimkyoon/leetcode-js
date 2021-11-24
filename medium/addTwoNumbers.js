@@ -57,3 +57,5 @@ const addTwoNumbers = (l1, l2) => {
   // return new added linked list
   return returnLL;
 };
+
+module.exports = addTwoNumbers;

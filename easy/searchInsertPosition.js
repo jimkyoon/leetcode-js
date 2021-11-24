@@ -22,3 +22,5 @@ const searchInsertPosition = (nums, numToInsert) => {
   // run it
   return binarySearchAndInsert(nums, numToInsert, 0, nums.length - 1);
 };
+
+module.exports = searchInsertPosition;

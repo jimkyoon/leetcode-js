@@ -21,3 +21,5 @@ const twoSum = (nums, target) => {
   // return string if none are found
   return 'None found';
 };
+
+module.exports = twoSum;

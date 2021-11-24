@@ -17,3 +17,5 @@ const reverseInteger = (integer) => {
   // return the number based on limit, then change it to positive or negative based off posOrNeg result
   return returnNum > limit ? 0 : returnNum * posOrNeg;
 };
+
+module.exports = reverseInteger;
