@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 console.log('This is the start of testing an algorithm');
 
 // const testFunction = require('./');
