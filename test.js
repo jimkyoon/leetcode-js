@@ -5,7 +5,7 @@ console.log('This is the start of testing an algorithm');
 
 console.time('test runtime');
 
-// const result = testFunction();
+// const result = testFunction(variable1);
 // console.log(result);
 
 console.timeEnd('test runtime');
