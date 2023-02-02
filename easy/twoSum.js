@@ -8,6 +8,8 @@
  * @return {number[]}
  */
 
+// hash table version
+// time complexity O(n) | space complexity O(n)
 const twoSum = (nums, target) => {
   // memo will keep track of complementary numbers
   const memo = {};
@@ -21,5 +23,23 @@ const twoSum = (nums, target) => {
   // return string if none are found
   return 'None found';
 };
+
+// // 2 loops version
+// // time complexity O(n^2) | space complexity O(1)
+// const twoSum = (nums, target) => {
+//   // loop through the nums array
+//   for (let i = 0; i < nums.length; i += 1) {
+//     const firstNumber = nums[i];
+//     // loop through the second array
+//     for (let j = i + 1; j < nums.length; j += 1) {
+//       const secondNumber = nums[j];
+//       // check to see if i and j add up to the target
+//       // if they do, return indicies
+//       if (firstNumber + secondNumber === target) return [i, j];
+//     }
+//   }
+//   // if the loops finish, then return none found
+//   return 'None found';
+// };
 
 module.exports = twoSum;
